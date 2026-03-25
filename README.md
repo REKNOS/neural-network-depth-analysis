@@ -66,3 +66,8 @@ To ensure reproducibility, a fixed random seed (`SEED = 42`) is used across:
 
 ```bash
 pip install numpy matplotlib scikit-learn tensorflow
+
+
+## About
+
+This project systematically investigates the impact of neural network depth on learning complex, non-linear patterns using the scikit-learn make_moons dataset. We compare shallow (1 hidden layer), moderate (2 hidden layers), and deep (4 hidden layers) networks, analyzing their performance, decision boundaries, training time, and susceptibility to overfitting. The results highlight the crucial trade-offs between model complexity and generalization capability.
