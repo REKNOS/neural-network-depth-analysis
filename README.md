@@ -67,8 +67,11 @@ This project systematically investigates the impact of neural network depth on l
 
 ## How to Run
 
-### 1. Install dependencies
+1. Install dependencies:
+pip install -r requirements.txt
 
-```bash
-pip install numpy matplotlib scikit-learn tensorflow
+2. Open the notebook:
+jupyter notebook notebook.ipynb
+
+3. Run all cells
 
